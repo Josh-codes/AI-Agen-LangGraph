@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "basic": {
+      "price": 29,
+      "currency": "USD",
+      "billing": "monthly",
+      "videos_per_month": 10,
+      "max_resolution": "720p",
+      "ai_captions": false,
+      "support_24_7": false
+    },
+    "pro": {
+      "price": 79,
+      "currency": "USD",
+      "billing": "monthly",
+      "videos_per_month": "unlimited",
+      "max_resolution": "4K",
+      "ai_captions": true,
+      "support_24_7": true
+    }
+  },
+  "policies": {
+    "refund_period_days": 7,
+    "refund_policy": "No refunds after 7 days",
+    "support_24_7_plan": "pro"
+  },
+  "features": {
+    "basic": [
+      "10 videos/month",
+      "720p resolution",
+      "Standard support"
+    ],
+    "pro": [
+      "Unlimited videos",
+      "4K resolution",
+      "AI captions",
+      "24/7 support"
+    ]
+  }
+}
